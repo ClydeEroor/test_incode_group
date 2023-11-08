@@ -1,6 +1,7 @@
 import React, { PropsWithChildren } from 'react';
 import Header from './Header';
 import Title from './Title';
+import Footer from './Footer';
 
 const Layout = ({ children }: PropsWithChildren) => {
   return (
@@ -8,6 +9,7 @@ const Layout = ({ children }: PropsWithChildren) => {
       <Header />
       <Title />
       {children}
+      <Footer />
     </div>
   );
 };
